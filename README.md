@@ -1,4 +1,4 @@
-# DDD Scala Calalog API #
+# DDD Scala Catalog API #
 
 ## TODO ##
 - [ ] Define user scenarios
