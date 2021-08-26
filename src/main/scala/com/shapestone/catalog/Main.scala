@@ -10,7 +10,7 @@ package com.shapestone.catalog
 
 import com.typesafe.config.ConfigFactory
 
-object Server extends App {
+object Main extends App {
   val cfg = ConfigFactory.load(getClass.getClassLoader)
   val ip = cfg.getString("service.ip")
   println(ip)

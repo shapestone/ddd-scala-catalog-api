@@ -10,7 +10,8 @@ val ScalaTestVersion = "3.2.9"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "Server",
+    name := "Main",
     libraryDependencies += "com.typesafe"  % "config"     % TypeSafeVersion,
     libraryDependencies += "org.scalatest" %% "scalatest" % ScalaTestVersion % Test,
   )
+
